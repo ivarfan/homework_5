@@ -231,14 +231,40 @@ h4 {
   border-style: solid;
   font-family: Roboto;
   font-weight: 300;
-  font-size: 28px;
-  padding: 11.5px 140px 12.5px 15px;
+  font-size: 26px;
+  padding: 14.5px 0px 15.5px 15px;
+  margin-left: 23px;
 }
 
 .f1 {
   border-width: 1px;
   border-color: black;
   background-color: rgb(245, 245, 245);
+  transform: scale(1.1, 1);
+}
+
+.f2 {
+  transform: scale(1.1, 1);
+}
+
+.f3 {
+  transform: scale(1.1, 1);
+}
+
+.additional-pricing-a {
+  margin-right: 10px;
+  padding-left: 39px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.additional-pricing-b {
+  margin-right: 10px;
+  padding-left: 166px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 /* quantity section */
